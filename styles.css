@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 8px;
+  margin-top: 50px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.tab-item {
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #3e6ca0;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.content {
+  color: orange;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.tab-item.active {
+  border-color: #000;
+  background: rgb(146, 176, 232);
+  color: #fff;
+}
+.content {
+  padding: 20px 10px;
+  height: 300px;
+  overflow: auto;
+  background-color: #fff;
+}
